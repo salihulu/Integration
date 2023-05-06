@@ -15,7 +15,7 @@ public class MusteriGoRestPostCallout {
                              // https://gorest.co.in/public/v2/users/    ?name=   Resul yeni   &email=   dsfsafsad@dfsaf  &status=active&gender=male
         
         //  asagidaki iki satir go rest icin gerekli olan Authorization yapilmasi icin yazildi 
-         request.setHeader('Authorization', 'Bearer d76e2755ffe26232f550bdc9252f0333ae7dfa7755750ae3ef9'); 
+         request.setHeader('Authorization', 'Bearer xxxx'); 
          request.setHeader('Content-Type', 'application/json; charset=utf-8');
      
         // request.setBody(body)
