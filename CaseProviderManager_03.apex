@@ -75,7 +75,19 @@ System.debug(System.UserInfo.getSessionId().substring(15));
         }
     }
     
+    /*
     
+    //  eger statuse gore filtre yapmak istersek
+string durum;
+               for(String fieldName : mapinKeyleri){
+            if( fieldName.toLowerCase() == 'status' ) {
+                durum =  params.get(fieldName).toString();
+             // recordIds = String.valueOf(mapinKeyleri.get(fieldName));
+            }
+        }
+          List<case> caseList = [SELECT Id ,CaseNumber,  Status, Origin, Subject, Reason  FROM case  WHERE Status = :durum];
+    
+    */
     
     
     @HttpDelete
